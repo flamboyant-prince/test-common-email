@@ -7,15 +7,17 @@ import org.junit.Before;
 import org.junit.Test;
 
 
-public class ReplyTest {
+public class EmailFromTest {
 	
 	
 	private EmailConcrete email;
+	private EmailConcrete emull;
 
 	@Before
 	public void  setUpEmailTest() throws Exception
 	{
 		email = new EmailConcrete();
+		emull = new EmailConcrete();
 
 	}
 	@After
@@ -27,6 +29,8 @@ public class ReplyTest {
 	@Test
 	public void replyTester() throws Exception
 	{
-		//there's nothing nothing nothing
+		//email.setFrom(null);
+		//email.setFrom("greg@egg.com");
+		
 	}
 }
